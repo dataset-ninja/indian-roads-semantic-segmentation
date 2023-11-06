@@ -56,7 +56,8 @@ BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Simranjeet Singh", "Soofiyan Atar", "Aditya Panwar", "Amit Kumar", "Srijan Agrawal", "Sravya G", "Ravikumar Chaurasia", "Shreyas Sule" ,"Kavi Arya"]
+AUTHORS: Optional[List[str]] = ["Simranjeet Singh", "Soofiyan Atar", "Aditya Panwar", "Amit Kumar", "Srijan Agrawal", "Sravya G", "Ravikumar Chaurasia", "Shreyas Sule" , "Kavi Arya"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://www.linkedin.com/company/e-yantraiitb/"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "e-Yantra, IIT Bombay, India"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.e-yantra.org/"
@@ -110,6 +111,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
