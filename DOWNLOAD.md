@@ -1,6 +1,6 @@
 Dataset **Indian Roads** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/O/8/ck/ZyrXk4TPRWpoKI9r3vKEwdAoBZWWx2r1FFqAIEjXOz01reFElxv7EbJ7t7MZisslgjZ6rHQDFH66q0YPRlUmLYmhhcJoVfM6N2yJf3nAfJVLHEtKmFFpBn37oQk3.tar)
+ [Download](https://www.dropbox.com/scl/fi/x4dmermc7ka3kmn6aef0q/indian-roads-DatasetNinja.tar?rlkey=2hdt8q0jxuipsrsbu53c6gn2k&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
